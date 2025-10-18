@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "types": ["vite/client", "storybook__react"],
+    "baseUrl": ".",
+    "paths": {
+      "@test/ui/*": ["./../../../../packages/ui/src/*"]
+    }
+  },
+  "include": ["./../../../../packages/ui/src/**/*"],
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }]
+}
